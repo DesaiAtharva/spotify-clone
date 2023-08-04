@@ -356,6 +356,11 @@
     border-bottom: 2px solid #282828;
     padding-top: 10%;
   }
+  .left-rectangle{
+    overflow-y:auto ;
+    overflow: hidden;
+
+  }
   .left-section-playlist {
     position: relative;
     overflow-y:auto ;
