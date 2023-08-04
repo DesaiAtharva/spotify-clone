@@ -26,6 +26,8 @@
     background-color: #000;
     height: 90vh;
     overflow: hidden;
+    overflow-y:auto ;
+    overflow: hidden;
   }
 
   .spotify-logo > img {
@@ -356,15 +358,17 @@
     border-bottom: 2px solid #282828;
     padding-top: 10%;
   }
-  .left-rectangle{
-    overflow-y:auto ;
-    overflow: hidden;
-
-  }
+  
   .left-section-playlist {
     position: relative;
     overflow-y:auto ;
     overflow: hidden;
+  }
+  
+  .right-scroll-down{
+    overflow-y: scroll;
+    /*margin-left: 309px;*/
+   
   }
 
   .album-girl {
