@@ -6,7 +6,9 @@
     text-decoration: none !important;
   }
   .left-rectangle{
-    overflow-y: scroll;
+   
+    overflow-y:auto ;
+    overflow: hidden;
     /*position: fixed;*/
   }
 
@@ -356,6 +358,8 @@
   }
   .left-section-playlist {
     position: relative;
+    overflow-y:auto ;
+    overflow: hidden;
   }
 
   .album-girl {
